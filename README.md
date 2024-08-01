@@ -1,4 +1,4 @@
-# **Hello There 👋. Welcome to my Portfolio.**
+# Hello There 👋. Welcome to my Portfolio.
 ---
 ## Check it out...
 #### While looking through this repo, and others on my account you'll notice I have more than 2 portfolios.
