@@ -1,4 +1,4 @@
-# **__Hello There 👋. Welcome to my Portfolio.__**
+# **Hello There 👋. Welcome to my Portfolio.**
 ### A server room of creations and ideas sparked by me, or made in collaboration with others.
 ---
 ## Check it out...
