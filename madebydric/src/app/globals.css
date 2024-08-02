@@ -2,7 +2,87 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Sequel 100 Wide 95";
+  src: url("https://db.onlinewebfonts.com/t/d002e7c91b889cc10ce21789cfde95dd.eot");
+  src: url("https://db.onlinewebfonts.com/t/d002e7c91b889cc10ce21789cfde95dd.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/d002e7c91b889cc10ce21789cfde95dd.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/d002e7c91b889cc10ce21789cfde95dd.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/d002e7c91b889cc10ce21789cfde95dd.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/d002e7c91b889cc10ce21789cfde95dd.svg#Sequel 100 Wide 95")format("svg");
+}
+
 *{
   margin: 0;
   padding: 0;
+  box-sizing: inherit;
+  text-rendering: optimizeLegibility;
+  font-kerning: auto;
 }
+
+.mbd {
+  color: brown;
+  letter-spacing: 4px;
+  mix-blend-mode: color-dodge;
+  -webkit-text-stroke: 1px;
+}
+
+.behind {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.project {
+  font-family: "Sequel 100 Wide 95", sans-serif;
+  font-weight: 900;
+  letter-spacing: 4px;
+}
+
+.dwn {
+  perspective-origin: top top;
+}
+
+.dwn-item {
+    -webkit-text-stroke: 1px;
+    transform-origin: top center;
+    transition: all 0.3s cubic-bezier(0,0.61,0.25,0.99);
+}
+
+.dwn-item:hover {
+  transform: rotateX(0deg) ; 
+  color: rgba(0, 0, 0, 0.2);
+  mix-blend-mode: color-dodge;
+  letter-spacing: 6px;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: rgba(87, 233, 238, 1);
+  scale: 1.1;
+}
+
+
+
+/* ******* DISCARD ********* */
+
+/* .perspective-container {
+  perspective: 1000px; 
+  overflow: hidden;
+}
+
+.inner-perspective {
+  width: 100%;
+}
+
+.perspective-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%; 
+}
+
+.perspective-item {
+  transform: rotateX(15deg) rotateY(-40deg) rotateZ(2deg); 
+  transform-origin: center center;
+  margin-bottom: 12px; 
+  display: block; 
+} */
