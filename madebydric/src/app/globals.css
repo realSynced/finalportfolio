@@ -55,7 +55,7 @@
   color: rgba(0, 0, 0, 0.2);
   mix-blend-mode: color-dodge;
   letter-spacing: 6px;
-  -webkit-text-stroke: 1px;
+  -webkit-text-stroke: 3px;
   -webkit-text-stroke-color: rgba(87, 233, 238, 1);
   scale: 1.1;
 }
