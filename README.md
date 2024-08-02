@@ -1,5 +1,4 @@
-# **__Hello There 👋. Welcome to my Portfolio.__**
-### A server room of creations and ideas sparked by me, or made in collaboration with others.
+# Hello There 👋. Welcome to my Portfolio.
 ---
 ## Check it out...
 #### While looking through this repo, and others on my account you'll notice I have more than 2 portfolios.
